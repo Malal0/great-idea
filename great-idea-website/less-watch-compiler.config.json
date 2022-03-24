@@ -1,0 +1,5 @@
+{
+    "watchFolder": "./User-Interface/great-idea-website/less",
+    "outputFolder": "./User-Interface/great-idea-website/css",
+    "mainFile": "index.less"
+}

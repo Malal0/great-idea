@@ -1,0 +1,101 @@
+/* Your code starts here! */
+@import "joshua.less";
+body{
+	margin: 3em;
+}
+
+h1{
+	font-family: Bangers;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+p{
+	font-family: Titillium Web;
+	
+}
+
+.box1{
+	color: rgb(100, 100, 100);
+	display: flex;
+	flex-wrap:nowrap;
+	
+	
+}
+
+#navbar{
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	flex-direction: row;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	width: 100%;
+	font-family: Titillium Web;
+}
+
+.get-started-section{
+	display: flex;
+	justify-content: space-evenly;
+	font-family: Bangers;
+	align-items: center;
+	margin-block: 2em;
+	
+}
+
+#get-started-left{
+	font-size: 75px;
+	text-align: center;
+	width: 200px;
+}
+
+.features-about-section{
+	display: flex;
+	justify-content: space-between;
+	margin:1em;
+	border-top: 2px solid black;
+	padding-top: 2em;
+}
+
+.services-product-vision-section{
+	height:260px;
+	display: inline-flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-bottom: 2px solid black;
+	padding-bottom: 1em;
+}
+.contact-details{
+	display: flex;
+	justify-self: right;
+	flex-flow: column;
+	width: 160px;
+	padding-top: 2em;
+}
+
+.footer-txt{
+	text-align: center;
+	font-family: Titillium Web;
+	margin-bottom: 8em;
+}
+
+button{
+	border:2px solid black;
+	background: white;
+	padding-inline:30px;
+	font-family: Titillium Web;
+	margin-left: 3em;
+	
+}
+
+.mimg{
+	display: flex;
+	justify-content: center;
+}
+
+@media(max-width:500px){
+	.get-started-section{
+		flex-direction:column;
+	}
+	
+}
